@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using SistemaInventario.Models;
+using SistemaInventario.Modelos.ViewModels;
 using System.Diagnostics;
 
-namespace SistemaInventario.Controllers
+namespace SistemaInventario.Areas.Inventario.Controllers
 {
+    [Area("Inventario")] //para cada controlador colocarle aque area pertenece AREA para este para un controlador especifico
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
