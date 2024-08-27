@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
+using SistemaInventario.AccesoDatos.Repositorio;
+using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,14 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+//vamos a agregar los servicios para que todos los cambios de los repositorios corran entodos
+//los formularios desde los repositorios IRepositorio   de SistemaInventario.AccesoDatos
+
+builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
+
+
+
 
 var app = builder.Build();
 
