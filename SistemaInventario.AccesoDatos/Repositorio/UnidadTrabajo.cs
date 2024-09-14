@@ -16,6 +16,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         //vamos acrear una propiedad llamada  IBodegaRepositorio Bodega 
 
         public IBodegaRepositorio Bodega { get; private set; }
+        public ICategoriaRepositorio Categoria{ get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -23,6 +24,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             //vamos a incicalizar Bodega 
 
             Bodega = new BodegaRepositorio(_db);
+            Categoria = new CategoriaRepositorio(_db);
            
         }
 

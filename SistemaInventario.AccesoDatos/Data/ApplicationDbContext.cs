@@ -11,8 +11,9 @@ namespace SistemaInventario.AccesoDatos.Data
             : base(options)
         {
         }
-
+        //este Dbset es para crear las tablas y ejecutar nuestra migracion 
         public DbSet<Bodega> Bodegas { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -12,6 +12,9 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         //vamos a traer todos los repositorios que hemos creado IBodegaRepositorio Bodega {get;} solo el get ya que aqui no actualizaremos 
 
         IBodegaRepositorio Bodega {  get; }
+        //llamaremos y agregaremos los modelos de IcategoriasRepositorio
+        ICategoriaRepositorio Categoria { get; }
+
         //vamos a detallar el metodo guardar que va se rmetodo Asyncrono que se hara cargo de guardar los cambios y para que quede guardado 
 
         //en todo el area de trabajo y lo podamos llamar en otro formularios en cualquier momento 
