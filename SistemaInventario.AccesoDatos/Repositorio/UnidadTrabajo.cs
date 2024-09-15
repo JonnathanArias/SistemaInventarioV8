@@ -18,6 +18,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public IBodegaRepositorio Bodega { get; private set; }
         public ICategoriaRepositorio Categoria{ get; private set; }
 
+        public IMarcaRepositorio Marca { get; private set; }
+
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
@@ -25,6 +27,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
             Bodega = new BodegaRepositorio(_db);
             Categoria = new CategoriaRepositorio(_db);
+            Marca = new MarcaRepositorio(_db);
            
         }
 

@@ -9,6 +9,8 @@ namespace SistemaInventario.Modelos
 {
     public class Categoria
     {
+        //aqui se crean los campos y tipos de Datos para la BD  en este caso Categoria
+
         [Key]
         public int Id { get; set; }
         [Required (ErrorMessage ="Nombre es Requerido")]

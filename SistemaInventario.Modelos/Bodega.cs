@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.Modelos
 {
+
+    //aqui se crean los campos y tipos de Datos para la BD  en este caso Bodega
     public class Bodega
     {
         [Key]   
