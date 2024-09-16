@@ -25,7 +25,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public void Actualizar(Marca marca)
         {
-            //vamos a implementa el metodo actualizar el regsitro de bodega que se envia ahora vamos a capturarlo 
+            //vamos a implementa el metodo actualizar el regsitro de marca que se envia ahora vamos a capturarlo 
            
 
             var marcaBD = _db.Marcas.FirstOrDefault(b => b.Id == marca.Id);  // aqui estamos capturando el registro antes de actulaizarlo ahora vamos a validar si este es un valor a diferente anulo 

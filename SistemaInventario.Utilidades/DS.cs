@@ -11,5 +11,9 @@ namespace SistemaInventario.Utilidades
         //vamos acrear 2 constantes para _Notificaciones
         public const string Exitosa = "Exitosa";
         public const string Error = "Error";
+
+        // la ruta donde se guardaran las imagenes para productos 
+
+        public const string ImagenRuta = @"\imagenes\producto\";
     }
 }

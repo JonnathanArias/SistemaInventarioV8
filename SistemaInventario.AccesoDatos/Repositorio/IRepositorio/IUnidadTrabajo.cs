@@ -17,6 +17,10 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         IMarcaRepositorio Marca { get; }
 
+        IProductoRepositorio Producto { get; }
+
+        
+
         //vamos a detallar el metodo guardar que va se rmetodo Asyncrono que se hara cargo de guardar los cambios y para que quede guardado 
 
         //en todo el area de trabajo y lo podamos llamar en otro formularios en cualquier momento 
