@@ -96,5 +96,10 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
             return null;
         }
+
+        public Task<IEnumerable<Producto>> ObtenerTodosDropdownLista()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
