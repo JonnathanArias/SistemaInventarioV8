@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Modelos.Especificaciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -79,6 +80,39 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
             return await query.ToListAsync();
         }
+
+        public PagedList<T> ObtenerTodosPaginado(Parametros paramentros, Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTracking = true)
+        {
+            IQueryable<T> query = dbSet;
+            //vamos a crear un if por si el filtro es ! a null debemos filtrar nuestr query 
+            if (filtro != null)
+            {
+                query = query.Where(filtro); // select para seleccionarlo y el where es para filtralo para alguna propiedad que estamos utilizando 
+            }
+            //ahora vamos a incluir propiedades es una cadena de caracteres, vamos avreificar si estamos recibiendo valores es para los include 
+
+            if (incluirPropiedades != null)
+            {
+                //vamos a recorrer esa cadena de caracteres 
+                foreach (var incluirProp in incluirPropiedades.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    //al realizar el recorrido del foreach va incluirme las propiedades de los objetos
+
+                    query = query.Include(incluirProp); // ejemplo  "Categoria, Marca "
+                }
+            }
+            if (orderBy != null)
+            {
+                query = orderBy(query);
+            }
+            if (!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+
+            return PagedList<T>.ToPagedList(query, paramentros.PageNumber,paramentros.PageSize);
+        }
+
         //vamos acopira y pegar de Obtener todos a Obtenerprimero pero no va orderby y vamos a modificar return await query.ToListAsync(); a  este return await query.FirstOrDefaultAsync(); retorna un solo elemento 
         public async Task<T> Obtenerprimero(Expression<Func<T, bool>> filtro = null, string incluirPropiedades = null, bool isTracking = true)
         {
@@ -119,5 +153,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         {
             dbSet.RemoveRange(entidad);//este eliminara un rango de una lista de tipo objeto y lo va eliminar 
         }
+
+       
     }
 }

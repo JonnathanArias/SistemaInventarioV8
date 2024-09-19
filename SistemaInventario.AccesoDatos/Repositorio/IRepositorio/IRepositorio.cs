@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaInventario.Modelos.Especificaciones;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -27,6 +28,13 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
 
             );
+
+        //vamos a crear la declaracion del metodo del PageList 
+
+        PagedList<T> ObtenerTodosPaginado(Parametros paramentros, Expression<Func<T, bool>> filtro = null,//filtro que nos va traer 
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string incluirPropiedades = null,
+            bool isTracking = true); // este metodo nos va traer todo paginado 
 
         //creacion de otro metodo que no nos retorne una lista si no que nos retorne un objeto segun el filtro 
 
