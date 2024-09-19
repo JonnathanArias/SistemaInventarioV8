@@ -19,6 +19,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         IProductoRepositorio Producto { get; }
 
+        IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
+
         
 
         //vamos a detallar el metodo guardar que va se rmetodo Asyncrono que se hara cargo de guardar los cambios y para que quede guardado 

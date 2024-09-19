@@ -22,16 +22,20 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public IProductoRepositorio Producto { get; private set; }
 
+        public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
+
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
-            //vamos a incicalizar Bodega 
+            //vamos a incicalizar Bodega  Categoria Marca Producto UsuarioAplicacion
 
             Bodega = new BodegaRepositorio(_db);
             Categoria = new CategoriaRepositorio(_db);
             Marca = new MarcaRepositorio(_db);
             Producto = new ProductoRepositorio(_db);
-           
+            UsuarioAplicacion = new  UsuarioAplicacionRepositorio(_db);
+
+
         }
 
 
