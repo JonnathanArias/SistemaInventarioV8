@@ -15,5 +15,13 @@ namespace SistemaInventario.Utilidades
         // la ruta donde se guardaran las imagenes para productos 
 
         public const string ImagenRuta = @"\imagenes\producto\";
+
+        //vamos a detallar todos los roles que se van a utilizar en el sistema de informacion 
+
+        public const string Role_Admin = "Admin"; 
+        
+        public const string Role_Cliente = "Cliente";//cuando un cliente se registre tendra ese rol de cliente
+
+        public const string Role_Inventario = "Inventario";//es un modulo de completo que van atener usuarios que tenga este rol
     }
 }
