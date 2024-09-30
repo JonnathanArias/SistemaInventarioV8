@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\admin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\admin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\admin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\admin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\admin\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\admin\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\admin\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\admin\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\admin\\controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\admin\\controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58360C3C-1716-4AE4-9A81-571293226DBD}|SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario.utilidades\\errordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\wwwroot\\js\\usuario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\admin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\admin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|c:\\users\\user\\source\\repos\\sistemainventarioc#core8\\sistemainventario\\sistemainventario\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F341258-FB2B-4732-9476-89546B599892}|SistemaInventario\\SistemaInventario.csproj|solutionrelative:sistemainventario\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,51 +73,99 @@
               "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaInventario\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaInventario\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T01:18:08.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorDescriber.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario.Utilidades\\ErrorDescriber.cs",
-              "RelativeDocumentMoniker": "SistemaInventario.Utilidades\\ErrorDescriber.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario.Utilidades\\ErrorDescriber.cs",
-              "RelativeToolTip": "SistemaInventario.Utilidades\\ErrorDescriber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T03:09:22.01Z",
+              "DocumentIndex": 1,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "SistemaInventario\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T01:11:20.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "SistemaInventario\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:01:34.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MarcaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\MarcaController.cs",
+              "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Admin\\Controllers\\MarcaController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\MarcaController.cs",
+              "RelativeToolTip": "SistemaInventario\\Areas\\Admin\\Controllers\\MarcaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:01:20.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Admin\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "SistemaInventario\\Areas\\Admin\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:01:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BodegaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\BodegaController.cs",
+              "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Admin\\Controllers\\BodegaController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\BodegaController.cs",
+              "RelativeToolTip": "SistemaInventario\\Areas\\Admin\\Controllers\\BodegaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:59:09.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Admin\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Admin\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "SistemaInventario\\Areas\\Admin\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAUwEoAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T02:36:38.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "usuario.js",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\usuario.js",
-              "RelativeDocumentMoniker": "SistemaInventario\\wwwroot\\js\\usuario.js",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\usuario.js",
-              "RelativeToolTip": "SistemaInventario\\wwwroot\\js\\usuario.js",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwEoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-27T02:03:01.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -106,33 +178,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaInventario\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Program.cs",
-              "RelativeToolTip": "SistemaInventario\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T00:16:22.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "SistemaInventario\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAAAOkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAPAAAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T00:04:44.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaInventario\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Program.cs",
+              "RelativeToolTip": "SistemaInventario\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T00:16:22.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "usuario.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\usuario.js",
+              "RelativeDocumentMoniker": "SistemaInventario\\wwwroot\\js\\usuario.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\usuario.js",
+              "RelativeToolTip": "SistemaInventario\\wwwroot\\js\\usuario.js",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwEoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-27T02:03:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorDescriber.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario.Utilidades\\ErrorDescriber.cs",
+              "RelativeDocumentMoniker": "SistemaInventario.Utilidades\\ErrorDescriber.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario.Utilidades\\ErrorDescriber.cs",
+              "RelativeToolTip": "SistemaInventario.Utilidades\\ErrorDescriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:09:22.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaInventarioC#Core8\\SistemaInventario\\SistemaInventario\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "SistemaInventario\\Areas\\Identity\\Pages\\Account\\Register.cshtml",

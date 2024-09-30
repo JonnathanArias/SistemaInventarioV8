@@ -237,6 +237,24 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
                         
                     }
                 }
+
+                //colocamos este input para cuando desde admin creemos un usuario no se pierda el rol si colocamos una clave que no cumpla los criterios
+
+                Input = new InputModel() // aqui vamos a llenar nuestra lista   IEnumerable<SelectListItem> 
+                {
+                    //aqui vamos acceder a todos los roles
+                    //y vamos a filtrar solo traer roles que son diferencte a cliente , ya que los cliente crea sus propios usuarios
+
+                    ListaRol = _roleManager.Roles.Where(r => r.Name != DS.Role_Cliente).Select(n => n.Name).Select(l => new SelectListItem
+                    {
+                        Text = l,
+                        Value = l
+                    })
+
+
+                };
+
+
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);

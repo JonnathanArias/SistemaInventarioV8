@@ -19,6 +19,17 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.Sign
     .AddErrorDescriber<ErrorDescriber>()
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+//este es un servcio para redireccionar al login , logout , al acceso denegado , para que el user no este autorizado configuracion de las cookies
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+});
+
+
+
 builder.Services.Configure<IdentityOptions>(options =>
 {
     // este es como quiero controlar las contraseñas si quiere mayusculas, minusculas , que se repitan aun que sea una vez 
@@ -62,7 +73,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();//agregar este para asignar las autorizaciones de accesos segun el rol 
 app.UseAuthorization();
 
 app.MapControllerRoute(

@@ -1,14 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Utilidades;
 
 namespace SistemaInventario.Areas.Admin.Controllers
 {
     //vamos aubicarlo al area que pertenece donde pertenece
 
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]//este es para que el usuario tenga que autorizarse y que roles tiene esta autorizacion 
     public class UsuarioController : Controller
     {
         //vamos a traer nuestra area de trabajo 

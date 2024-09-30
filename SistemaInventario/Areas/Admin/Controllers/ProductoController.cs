@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Modelos;
@@ -10,6 +11,7 @@ namespace SistemaInventario.Areas.Admin.Controllers
 
     //vamos a colocarle atributo de areas para decirle donde pertenece
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin + "," +DS.Role_Inventario)]//este es para que el usuario tenga que autorizarse y que roles tiene esta autorizacion 
     public class ProductoController : Controller
     {
       
