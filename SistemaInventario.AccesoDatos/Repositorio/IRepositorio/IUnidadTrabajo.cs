@@ -21,7 +21,15 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
 
-        
+        IBodegaProductoRepositorio BodegaProducto { get; }
+
+        IInventarioRepositorio Inventario { get; }
+
+        IInventarioDetalleRepositorio InventarioDetalle { get; }
+
+        IKardexInventarioRepositorio KardexInventario { get; }
+
+
 
         //vamos a detallar el metodo guardar que va se rmetodo Asyncrono que se hara cargo de guardar los cambios y para que quede guardado 
 

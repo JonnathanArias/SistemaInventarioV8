@@ -1,5 +1,6 @@
 ﻿using SistemaInventario.AccesoDatos.Data;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,14 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
 
+        public IBodegaProductoRepositorio BodegaProducto { get; private set; }
+
+        public IInventarioRepositorio Inventario { get; private set; }
+
+        public IInventarioDetalleRepositorio InventarioDetalle { get; private set; }
+
+        public IKardexInventarioRepositorio KardexInventario { get; private set; }
+
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
@@ -34,6 +43,10 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             Marca = new MarcaRepositorio(_db);
             Producto = new ProductoRepositorio(_db);
             UsuarioAplicacion = new  UsuarioAplicacionRepositorio(_db);
+            BodegaProducto = new  BodegaProductoRepositorio(db);
+            Inventario = new InventarioRepositorio(db);
+            InventarioDetalle = new InventarioDetalleRepositorio(db);
+            KardexInventario = new KardexInventarioRepositorio(_db);
 
 
         }

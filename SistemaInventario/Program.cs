@@ -42,6 +42,16 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 });
 
+//temporal
+
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+    });
+
+//
+
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
